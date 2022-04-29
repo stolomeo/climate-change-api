@@ -3,10 +3,10 @@ import axios from "axios";
 import cheerio from "cheerio";
 
 const PORT = 8080;
-
 const app = express();
 
 const articles = [];
+
 app.get("/", (req, res) => {
   res.json("Welcome to my Climage Change API");
 });
